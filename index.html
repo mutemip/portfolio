@@ -59,7 +59,94 @@
             <div class="hero-image">
                 <div class="image-frame">
                     <div class="image-glow"></div>
-                    <img src="images/pmutemi.jpg" alt="Paul Mutemi">
+                    <!-- Sketch illustration: software engineer at workstation -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 270" width="270" height="270"
+                         style="display:block;width:100%;height:100%;border-radius:4px;background:#0a0e1a;position:relative;z-index:1;">
+                        <!-- Desk surface -->
+                        <line x1="20" y1="200" x2="250" y2="200" stroke="#00fff5" stroke-width="2.5" stroke-linecap="round"/>
+                        <!-- Desk legs -->
+                        <line x1="35"  y1="200" x2="35"  y2="240" stroke="#00fff5" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="235" y1="200" x2="235" y2="240" stroke="#00fff5" stroke-width="2" stroke-linecap="round"/>
+                        <!-- Monitor stand -->
+                        <line x1="135" y1="155" x2="135" y2="200" stroke="#00fff5" stroke-width="2.5" stroke-linecap="round"/>
+                        <line x1="115" y1="200" x2="155" y2="200" stroke="#00fff5" stroke-width="2.5" stroke-linecap="round"/>
+                        <!-- Monitor bezel -->
+                        <rect x="70" y="95" width="130" height="88" rx="4" ry="4" fill="none" stroke="#00fff5" stroke-width="2.5"/>
+                        <!-- Monitor screen fill -->
+                        <rect x="76" y="101" width="118" height="76" rx="2" ry="2" fill="#0d1b2a" stroke="none"/>
+                        <!-- Code lines on screen -->
+                        <line x1="84"  y1="114" x2="128" y2="114" stroke="#00fff5" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+                        <line x1="84"  y1="124" x2="145" y2="124" stroke="#b026ff" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+                        <line x1="92"  y1="134" x2="160" y2="134" stroke="#00fff5" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
+                        <line x1="92"  y1="144" x2="138" y2="144" stroke="#b026ff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+                        <line x1="84"  y1="154" x2="118" y2="154" stroke="#00fff5" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+                        <!-- Cursor blink -->
+                        <rect x="120" y="151" width="7" height="9" rx="1" fill="#00fff5" opacity="0.85"/>
+                        <!-- Screen glow tint -->
+                        <rect x="76" y="101" width="118" height="76" rx="2" fill="url(#sg)" opacity="0.08"/>
+                        <defs>
+                            <radialGradient id="sg" cx="50%" cy="50%" r="60%">
+                                <stop offset="0%" stop-color="#00fff5"/>
+                                <stop offset="100%" stop-color="transparent"/>
+                            </radialGradient>
+                        </defs>
+                        <!-- Keyboard -->
+                        <rect x="78" y="190" width="114" height="14" rx="3" ry="3" fill="none" stroke="#00fff5" stroke-width="1.8"/>
+                        <line x1="86"  y1="193" x2="86"  y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <line x1="96"  y1="193" x2="96"  y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <line x1="106" y1="193" x2="106" y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <line x1="116" y1="193" x2="116" y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <line x1="126" y1="193" x2="126" y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <line x1="136" y1="193" x2="136" y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <line x1="146" y1="193" x2="146" y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <line x1="156" y1="193" x2="156" y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <line x1="166" y1="193" x2="166" y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <line x1="176" y1="193" x2="176" y2="201" stroke="#00fff5" stroke-width="1" opacity="0.5"/>
+                        <!-- Chair back -->
+                        <path d="M88 215 Q80 210 82 195 Q84 185 95 183" fill="none" stroke="#00fff5" stroke-width="2" stroke-linecap="round"/>
+                        <!-- Chair seat -->
+                        <path d="M82 215 Q100 222 140 220 Q160 219 175 215" fill="none" stroke="#00fff5" stroke-width="2" stroke-linecap="round"/>
+                        <!-- Chair legs -->
+                        <line x1="95"  y1="220" x2="88"  y2="255" stroke="#00fff5" stroke-width="2"   stroke-linecap="round"/>
+                        <line x1="155" y1="220" x2="162" y2="255" stroke="#00fff5" stroke-width="2"   stroke-linecap="round"/>
+                        <line x1="88"  y1="255" x2="78"  y2="255" stroke="#00fff5" stroke-width="2"   stroke-linecap="round"/>
+                        <line x1="162" y1="255" x2="172" y2="255" stroke="#00fff5" stroke-width="2"   stroke-linecap="round"/>
+                        <!-- Person torso -->
+                        <path d="M118 183 Q115 195 113 215 Q125 222 145 220 Q155 215 152 195 Q148 183 140 180 Q130 177 118 183Z"
+                              fill="none" stroke="#00fff5" stroke-width="2" stroke-linejoin="round"/>
+                        <!-- Arms -->
+                        <path d="M118 190 Q105 196 100 200 Q98 202 105 204" fill="none" stroke="#00fff5" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M140 190 Q155 196 162 200 Q164 202 157 204" fill="none" stroke="#00fff5" stroke-width="2" stroke-linecap="round"/>
+                        <!-- Hands on keyboard -->
+                        <ellipse cx="102" cy="205" rx="6" ry="4" fill="none" stroke="#00fff5" stroke-width="1.5"/>
+                        <ellipse cx="160" cy="205" rx="6" ry="4" fill="none" stroke="#00fff5" stroke-width="1.5"/>
+                        <!-- Neck -->
+                        <line x1="129" y1="175" x2="129" y2="183" stroke="#00fff5" stroke-width="2.5" stroke-linecap="round"/>
+                        <!-- Head -->
+                        <ellipse cx="129" cy="162" rx="22" ry="26" fill="none" stroke="#00fff5" stroke-width="2.2"/>
+                        <!-- Face details: eyes -->
+                        <ellipse cx="121" cy="160" rx="3" ry="3.5" fill="none" stroke="#00fff5" stroke-width="1.5"/>
+                        <ellipse cx="137" cy="160" rx="3" ry="3.5" fill="none" stroke="#00fff5" stroke-width="1.5"/>
+                        <!-- Pupils looking at screen -->
+                        <circle cx="121" cy="160" r="1.2" fill="#00fff5" opacity="0.9"/>
+                        <circle cx="137" cy="160" r="1.2" fill="#00fff5" opacity="0.9"/>
+                        <!-- Subtle smile -->
+                        <path d="M124 170 Q129 174 134 170" fill="none" stroke="#00fff5" stroke-width="1.5" stroke-linecap="round"/>
+                        <!-- Hair sketch lines -->
+                        <path d="M108 155 Q110 138 129 136 Q148 138 150 155" fill="none" stroke="#00fff5" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M108 155 Q107 148 110 142" fill="none" stroke="#00fff5" stroke-width="1.5" stroke-linecap="round"/>
+                        <!-- Subtle grid background dots -->
+                        <g opacity="0.08">
+                            <circle cx="30"  cy="30"  r="1" fill="#00fff5"/>
+                            <circle cx="60"  cy="30"  r="1" fill="#00fff5"/>
+                            <circle cx="210" cy="30"  r="1" fill="#00fff5"/>
+                            <circle cx="240" cy="30"  r="1" fill="#00fff5"/>
+                            <circle cx="30"  cy="60"  r="1" fill="#00fff5"/>
+                            <circle cx="240" cy="60"  r="1" fill="#00fff5"/>
+                            <circle cx="30"  cy="240" r="1" fill="#00fff5"/>
+                            <circle cx="240" cy="240" r="1" fill="#00fff5"/>
+                        </g>
+                    </svg>
                     <div class="image-corner tl"></div>
                     <div class="image-corner tr"></div>
                     <div class="image-corner bl"></div>
@@ -99,7 +186,7 @@
                 <div class="about-text">
                     <p>Dynamic Software Engineer with expertise in <span class="highlight">backend</span> and <span class="highlight">cloud engineering</span>. Proven ability to deliver scalable software solutions and optimize system performance.</p>
                     <p>Experienced in building high-throughput production applications serving <span class="highlight">millions of daily requests</span>. Excels in agile environments, contributing to project success through effective communication and teamwork.</p>
-                    <p>Pursuing a <span class="highlight">Master of Science in Information Technology</span> at Carnegie Mellon University Africa, with a B.Sc. in Computer Science from Karatina University.</p>
+                    <p>Pursuing a <span class="highlight">Master of Science in Information Technology</span> at Carnegie Mellon University, with a B.Sc. in Computer Science from Karatina University.</p>
                     <div class="cert-list">
                         <div class="cert-item"><i class="fas fa-certificate"></i> Cloud Developer — Udacity</div>
                         <div class="cert-item"><i class="fas fa-certificate"></i> Cyber Security Analyst — CyberShujaa Bootcamp</div>
